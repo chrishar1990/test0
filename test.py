@@ -15,7 +15,7 @@ repo.remote().fetch()
 repo.git.add('--all')
 repo.git.commit('-m', 'updated list')
 origin = repo.remote(name='chrishar1990/test0')
-#origin.push()
+origin.push()
 
 
 
