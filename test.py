@@ -9,6 +9,6 @@ from git import Repo
 repo = Repo('/Users/CH185222/practice/test0/')
 repo.git.add('--all')
 repo.git.commit('-m', 'updated list')
-origin = repo.remote(name='chrishar1990/test0')
+origin = repo.remote(name='test0')
 origin.push()
 
